@@ -43,10 +43,12 @@ Estas criaturas serían en su mundo lo que para nosotros son los animales. Con l
 
 ***
 
+**Puntuaciones totales con los diferentes modelos y métodos probados:**
+
 | Método | Puntuación (%) |
 | --- | :---: |
-| `Regresión logística` | 91.25 |
-| `RL con transf. log.` | 95.0 |
+| `Regresión Logística` | 91.25 |
+| `RL con transformación logarítmica` | 95.0 |
 | `SVM` | 91.875 |
 | `Random Forest` | 94.375 |
 | `Gradient Boosting` | 98.125 |
