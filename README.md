@@ -10,7 +10,7 @@ Trabajo realizado por Hernán Capilla.
 
 El dataset tiene 721 Pokémon. Cada Pokémon es una criatura fantástica existente en el mundo Pokémon, perteneciente a la franquicia The Pokémon Company©.
 
-**Nuestro objetivo a predecir en este Caso Kaggle consistirá en definir si un Pokémon es o no legendario basado en sus estadísticas básicas.**
+**OBJETIVO: predecir si un Pokémon es o no legendario basado en sus estadísticas básicas.**
 
 Estas criaturas serían en su mundo lo que para nosotros son los animales. Con la diferencia de que cada una de estas puede tener diferentes atributos físicos y mágicos. Ahora lo explicaré con más profundidad por orden de atributos:
 
