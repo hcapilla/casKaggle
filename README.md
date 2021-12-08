@@ -4,13 +4,13 @@ Repositorio creado con el objetivo de trabajar en el Caso Kaggle de la asignatur
 
 Dataset de Kaggle original: https://www.kaggle.com/abcsds/pokemon
 
+**OBJETIVO:** predecir si un Pokémon es o no legendario basado en sus estadísticas básicas.
+
 Trabajo realizado por Hernán Capilla.
 
 ***
 
 El dataset tiene 721 Pokémon. Cada Pokémon es una criatura fantástica existente en el mundo Pokémon, perteneciente a la franquicia The Pokémon Company©.
-
-**OBJETIVO: predecir si un Pokémon es o no legendario basado en sus estadísticas básicas.**
 
 Estas criaturas serían en su mundo lo que para nosotros son los animales. Con la diferencia de que cada una de estas puede tener diferentes atributos físicos y mágicos. Ahora lo explicaré con más profundidad por orden de atributos:
 
@@ -39,3 +39,14 @@ Estas criaturas serían en su mundo lo que para nosotros son los animales. Con l
 - Generation: Cada entrega de los juegos para consola de Pokémon cuenta como una nueva generación. Empezamos por la 1ª que fue la del 1996 y llegamos hasta día de hoy.
 
 - Legendary: En el mundo Pokémon hay algunas de estas criaturas que tienen el sobrenombre de Pokémon Legendarios. Esto proviene del hecho de que los calificados con ese pseudónimo tienen habilidades extraordinarias y fuera de lo común en su mundo. Pueden ser habilidades muy poderosas, o una dificultad de ser vistas gigantesca, o también que tengan unas estadísticas más elevadas de los común.
+
+
+***
+
+| Método | Puntuación (%) |
+| --- | :---: |
+| `Regresión logística` | 91.25 |
+| `RL con transf. log.` | 95.0 |
+| `SVM` | 91.875 |
+| `Random ForestGradient Boosting` | 94.375 |
+| `Random ForestGradient Boosting` | 98.125 |
