@@ -47,8 +47,15 @@ Estas criaturas serían en su mundo lo que para nosotros son los animales. Con l
 
 | Método | Puntuación (%) |
 | --- | :---: |
-| `Regresión Logística` | 91.25 |
-| `RL con transformación logarítmica` | 95.0 |
+| `Regresión Logística` | 95.625 |
+| `RL con procesamiento` | 96.25 |
 | `SVM` | 91.875 |
-| `Random Forest` | 94.375 |
-| `Gradient Boosting` | 98.125 |
+| `Random Forest` | 95.625 |
+| `Gradient Boosting` | 98.75 |
+
+Parámetros para el Gradient Boosting:
+- learning_rate=0.9
+- n_estimators = 100
+- validation_fraction = 0.2
+- n_iter_no_change=100
+- random_state=10 (no es un parámetro como tal pero hay que ponerlo para mantener la coherencia con las demás pruebas)
