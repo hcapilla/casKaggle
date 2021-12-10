@@ -53,7 +53,9 @@ Estas criaturas serían en su mundo lo que para nosotros son los animales. Con l
 | `Random Forest` | 95.625 |
 | `Gradient Boosting` | 98.75 |
 
-Parámetros para el Gradient Boosting:
+***
+
+***Parámetros para el mejor modelo Gradient Boosting:***
 - learning_rate=0.9
 - n_estimators = 100
 - validation_fraction = 0.2
